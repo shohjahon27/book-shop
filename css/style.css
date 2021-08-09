@@ -1,0 +1,269 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #d0d5d8 !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.name {
+  padding-top: 20px;
+  font-size: 60px;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#main {
+  height: 100vh;
+}
+
+.logo {
+  width: 90px;
+  height: 200px;
+}
+
+body {
+  line-height: 1.5;
+  font-size: 0.875rem;
+  background: #252424;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+#container {
+  display: flex;
+  font-size: 17px;
+  margin: 15px;
+  justify-content: center;
+  justify-content: space-around;
+}
+#container li a {
+  color: black !important;
+}
+
+@media screen and (min-width: 1005px) {
+  #container {
+    font-size: 10px;
+    margin: 15px;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  #container li a {
+    color: black !important;
+  }
+}
+@media screen and (min-width: 700px) {
+  #container {
+    font-size: 15px;
+    margin: 15px;
+    justify-content: center;
+    justify-content: space-around;
+  }
+  #container li a {
+    color: black !important;
+  }
+}
+.nav-center {
+  background: transparent;
+  width: 100%;
+  /*   align-items:center; */
+  /*   justify-content: space-between; */
+  width: 100%;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-header img {
+  cursor: pointer;
+  height: 50px;
+  float: left;
+  margin: 1em;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  /*   height: 80vh; */
+  transition: all 1s ease-in-out;
+  height: 0;
+  overflow: hidden;
+}
+
+.show-links {
+  background-size: 60vh;
+  background-position-y: 18vh;
+  height: 45vh;
+  transition: all 1s ease-in-out;
+}
+
+.active {
+  border-bottom-color: #ff1100 !important;
+}
+
+.links li {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 1vh;
+}
+
+.links li a {
+  color: #000000;
+  font-size: 1.2rem;
+  transition: 0.4s border;
+}
+
+.links li a:hover {
+  border-bottom: #eeff00 4px solid;
+}
+
+.social-icons {
+  display: flex;
+  height: 0vh;
+  overflow: hidden;
+}
+
+.show-icons {
+  height: 10vh;
+  align-items: center;
+  border-top: 2px solid #5f5c5c;
+  overflow: visible;
+}
+
+.social-icons li {
+  margin: auto;
+  font-size: 1.5rem;
+  transition: all 0.5s linear;
+}
+
+.social-icons li a {
+  font-size: 2rem;
+  padding: 0.4em;
+  color: black;
+  transition: all 0.5s ease;
+  border-radius: 50%;
+}
+
+.social-icons li a:hover {
+  background: #2c2a2a;
+  color: white;
+}
+
+.nav-toggle {
+  font-size: 2.5rem;
+  margin-right: 2vh;
+  color: white;
+  background: transparent;
+  border-color: transparent;
+  transition: 0.3s all linear;
+  cursor: pointer;
+  justify-self: flex-end;
+  outline: none;
+}
+
+.nav-toggle:hover {
+  color: #e20909;
+  outline: none;
+}
+
+@media screen and (min-width: 1050px) {
+  .nav-toggle {
+    display: none;
+  }
+
+  .nav-header {
+    display: block;
+  }
+
+  .links {
+    flex-direction: row;
+    height: auto;
+    display: flex;
+  }
+
+  .links li {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 1em 1em;
+    margin: auto;
+  }
+
+  .social-icons {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    border: none;
+    padding: 1em;
+  }
+
+  .social-icons li {
+    margin: auto;
+    font-size: 1rem;
+  }
+
+  .nav-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  footer {
+    display: none;
+  }
+}
+.cardbtn {
+  float: right;
+  margin-right: 25px !important;
+}
+
+.cardmodal {
+  width: 80%;
+  height: 70vh;
+  text-align: center;
+  position: fixed;
+  left: 10%;
+}
+
+.card {
+  border-radius: 0 0 5px black;
+}
+
+.container .row .card div button {
+  height: 50px;
+  font-size: 10px;
+}
+
+.footer {
+  background-color: #d3d8db !important;
+}
+
+.footer ul {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.footer ul li {
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  cursor: pointer;
+}
+
+.search {
+  width: 50% !important;
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */
